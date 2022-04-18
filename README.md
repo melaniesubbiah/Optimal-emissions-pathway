@@ -7,7 +7,7 @@ Sample command to train the model:
 
 `python emissions_planning.py --name example_run  --seed 14 --timesteps 1000 --stdout`
 
-The command line arguments are:
+The command line arguments are:  
 `name` - the name that will be given to the model output directory  
 `action_space` - the max amount the model can increase or decrease emissions by, an integer  
 `reward_mode` - which reward function to use (simple, temp, conc, carbon_cost, temp_emit, or temp_emit_diff)  
